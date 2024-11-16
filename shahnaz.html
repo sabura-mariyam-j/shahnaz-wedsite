@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabura Mariyam J. Portfolio</title>
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        color: #333;
+        background-color: #ffd4dd; /* Soft pink background */
+    }
+    header {
+        background-image: url(bgf.jpg); /* Add background image */
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 60px 0;
+        position: relative;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 3.5em;
+        color: #65004e; /* Dark pink */
+    }
+    header p {
+        margin: 10px 0;
+        font-size: 1.5em;
+        color: #aa217d; /* Medium pink */
+    }
+    nav {
+        background-color: #65004e; /* Dark pink for nav */
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    nav a:hover {
+        background-color: #aa217d; /* Lighter pink on hover */
+    }
+    .container {
+        padding: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color:#ffd4dd(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+        background-color:#ffd4dd; /* Light beige background for sections */
+    }
+    h2 {
+        color: #aa217d; /* Medium pink */
+        border-bottom: 2px solid #aa217d; /* Pink underline */
+        padding-bottom: 5px;
+        margin-top: 20px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    ul li {
+        margin-bottom: 15px;
+        font-size: 1.1em;
+    }
+    a {
+        color: #aa217d; /* Medium pink for links */
+        text-decoration: none;
+    }
+    a:hover {
+        color: #65004e; /* Darker pink on hover */
+        text-decoration: underline;
+    }
+    footer {
+        background-color: #65004e; /* Dark pink footer */
+        color: #fff;
+        text-align: center;
+        padding: 15px 0;
+    }
+    footer a {
+        color: #ffd4dd; /* Soft pink footer links */
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .image-box {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .image-box .title-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(102, 0, 78, 0.7); /* Transparent dark pink */
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 2.5em;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    td {
+        padding: 15px;
+        text-align: center;
+        background-color: #ffd4dd; /* Light pink for table */
+    }
+    img {
+        width: 120px;
+        height: auto;
+        border: 2px solid #e91e63;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    img:hover {
+        transform: scale(1.05);
+        border-color: #aa217d; /* Medium pink on hover */
+    }
+    .btn {
+        background-color: #aa217d; /* Medium pink button */
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .btn:hover {
+        background-color: #65004e; /* Dark pink on hover */
+    }
+    .section-title {
+        background-color: #aa217d; /* Medium pink background */
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .highlight {
+        background-color: #d487b5; /* Light purple highlight */
+        padding: 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #aa217d;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 19px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        #back-to-top:hover {
+            background-color: #ffd4dd;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+</style>
+</head>
+<body>
+
+<header id="top">
+    <h1>Sabura Mariyam J.</h1>
+    <p>Aspiring UX/UI Designer | Graphic Designer | Video Editor | Developer</p>
+</header>
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experiences">Experiences</a>
+    <a href="#education">Education</a>
+    <a href="#languages">Languages</a>
+    <a href="#contact">Contact</a>
+</nav>
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <ul>
+        <li><strong>Mobile App Redesign:</strong> Created wireframes and prototypes using Figma to enhance user satisfaction.</li>
+        <li><strong>Event Promotional Video:</strong> Edited videos with InShot and Adobe Premiere Pro to increase visibility.</li>
+        <li><strong>Social Media Graphics:</strong> Designed Instagram content using Canva and InShot, boosting engagement.</li>
+        <li><strong>Graphic Design:</strong> Created various promotional materials for Adet for fund-raising events.</li>
+    </ul>
+</section>
+<h3>Video Projects</h3>
+<video width="368" height="350" controls>
+    <source src="biriyani.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<video width="368" height="350" controls>
+    <source src="2g.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<video width="400" height="475" controls>
+    <source src="abdul kalam.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #f8bbd0;
+            border: 1px solid #e91e63;
+        }
+        td {
+            padding: 15px;
+            text-align: center;
+            background-color: #fce4ec;
+            border: 1px solid #e91e63;
+            border-radius: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    </head>
+    <section id="image project"></section>
+    
+    <h2 class="section-title">Image Projects</h2>
+    <table>
+        <tr>
+            <td><img src="free.jpg" alt="Image 1"></td>
+            <td><img src="women.jpg" alt="Image 2"></td>
+            <td><img src="zoo.jpg" alt="Image 3"></td>
+            <td><img src="ads .jpg" alt="Image 4"></td>
+            <td><img src="education.jpg" alt="Image 5"></td>
+        </tr>
+        <tr>
+            <td><img src="drugs free.jpg" alt="Image 6"></td>
+            <td><img src="enjoy.jpg" alt="Image 7"></td>
+            <td><img src="music.jpg" alt="Image 8"></td>
+            <td><img src="party.jpg" alt="Image 9"></td>
+            <td><img src="pizza.jpg" alt="Image 10"></td>
+        </tr>
+        <tr>
+            <td><img src="read.jpg" alt="Image 11"></td>
+            <td><img src="strong mental health.jpg" alt="Image 12"></td>
+            <td><img src="scissor cut .jpg" alt="Image 13"></td>
+            <td><img src="visiting card .jpg" alt="Image 14"></td>
+            <td><img src="pizza lovers.jpg" alt="Image 15"></td>
+        </tr>
+    </table>
+    </section>
+    <meta charset="UTF-8">
+    
+    </div>
+    <div class="container">
+        <section id="contact">
+            <h2 class="section-title">Contact Information</h2>
+            <ul>
+                <li><strong>Mobile:</strong> 9585112825</li>
+                <li><strong>Email:</strong> <a href="mailto:muhammedishaaq242@gmail.com">muhammedishaaq242@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sabura-mariyam-j-3ab3562b1" target="_blank">LinkedIn Profile</a></li>
+                <li><strong>YouTube:</strong> <a href="https://www.youtube.com/@saburamariyam" target="_blank">My YouTube Channel</a></li>
+            </ul>
+        </section>
+    </div>
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            Hello! I’m Sabura Mariyam, a second-year BCA student at Thassim Beevi Abdul Kader College for Women, Kilakarai. 
+            I have a strong passion for <span class="highlight">video editing, graphic design</span>, and UX/UI. Through my YouTube channel 
+            <strong>@ShahnazEditz</strong>, I explore various editing techniques and storytelling approaches to grow creatively.
+        </p>
+        <p>
+            I’m also a fast learner with a foundation in programming (C, C++, HTML), seeking to integrate design with technical development. I strive to create user-centered, intuitive, and visually engaging digital experiences. Currently, I am sharpening my skills in Figma and Adobe XD for UX/UI design.
+        </p>
+        <p>
+            <strong>Salary Expectations:</strong> I am aiming for a starting salary of ₹25,000. As I am still in my studies, I am open to part-time or remote roles that help me grow professionally.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li><strong>Design Tools:</strong> Figma (Learning), Adobe XD (Learning), Canva, InShot, Adobe Illustrator (Beginner), Adobe Photoshop (Beginner)</li>
+            <li><strong>Programming Languages:</strong> C, C++, HTML</li>
+            <li><strong>Web Development:</strong> CSS (Basic)</li>
+        </ul>
+    </section>
+
+    <section id="experiences">
+        <h2 class="section-title">Experiences</h2>
+        <ul>
+            <li><strong>Content Creator & Editor, YouTube</strong> (January 2022 - Present): Over 10K+ subscribers, with a focus on tutorials, reviews, and tips for video editing.</li>
+            <li><strong>Social Media Graphic Designer, Freelance</strong> (July 2023 - Present): Designed promotional content for local businesses and events.</li>
+            <li><strong>Event Coordinator, College Fest</strong> (March 2023): Coordinated visual presentations and digital media.</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+            <li><strong>Thassim Beevi Abdul Kader College for Women, Kilakarai</strong> (2022 - Present): Pursuing BCA (Bachelor of Computer Applications).</li>
+            <li><strong>Higher Secondary School, Kilakarai</strong> (2020 - 2022): Completed Higher Secondary with a focus on Science & Computer Applications.</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+            <li><strong>English:</strong> Intermediate </li>
+            <li><strong>Hindi:</strong> Basic</li>
+            <li><strong>Tamil:</strong> Native</li>
+        </ul>
+    </section>
+</div>
+<footer>
+    <p>&copy; 2024 Sabura Mariyam J. All rights reserved.</p>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="back-to-top" onclick="scrollToTop()" style="display: none;">↑</button>
+
+<script>
+    // Show the button when the user scrolls down 100px
+    window.onscroll = function() {
+        const button = document.getElementById("back-to-top");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            button.style.display = "block";
+        } else {
+            button.style.display = "none";
+        }
+    };
+
+    // Scroll to the top of the page when the button is clicked
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+</script>
+
+</body>
+</html>
+<a href="file:///D:/Users/SAHANAZ/Desktop/index.html/shahnaz.html">Click to Visit Google</a>
+
+     
